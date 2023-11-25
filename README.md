@@ -1,3 +1,29 @@
+**#Fork Info**
+This fork is an attempt to get hfs running in Docker. There is probably a better way to do this but if you really want to run it, here are the steps:
+
+1. Navigae to a working folder on your docker host
+
+2. Clone the fork repo using:
+ 
+git clone https://github.com/jaytea33/hfs.git
+
+3. Enable execution rights for setup.sh:
+
+chmod +x setup.sh
+
+4. Run setup.sh and your docker container will auto start:
+
+./setup.ph
+
+5. Use "docker ps" to check container is running then navigate to container at:
+
+http://localhost:8445
+
+6. Use these credentials and be sure to change them:
+
+Username: admin
+Password: P@ssword1
+
 # HFS: HTTP File Server (version 3)
 
 ![logo and motto](hfs-logo-color-motto.svg)
