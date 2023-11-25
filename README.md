@@ -7,19 +7,23 @@ This fork is an attempt to get hfs running in Docker. There is probably a better
  
 git clone https://github.com/jaytea33/hfs.git
 
-3. Enable execution rights for setup.sh:
+3. Navigate to hfs directory that was just created using:
+
+cd hfs
+
+4. Enable execution rights for setup.sh:
 
 chmod +x setup.sh
 
-4. Run setup.sh and your docker container will auto start:
+5. Run setup.sh and your docker container will auto start:
 
 ./setup.ph
 
-5. Use "docker ps" to check container is running then navigate to container via web-browser at:
+6. Use "docker ps" to check container is running then navigate to container via web-browser at:
 
 http://localhost:8445
 
-6. Use these credentials and be sure to change them:
+7. Use these credentials and be sure to change them:
 
 Username: admin
 Password: P@ssword1
