@@ -1,7 +1,7 @@
 **#Fork Info**
 This fork is an attempt to get hfs running in Docker. There is probably a better way to do this but if you really want to run it, here are the steps:
 
-1. Navigate to a working folder on your docker host
+1. Navigate to a working folder on your docker host via Terminal
 
 2. Clone the fork repo using:
  
