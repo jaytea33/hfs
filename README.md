@@ -17,7 +17,7 @@ chmod +x setup.sh
 
 5. Run setup.sh and your docker container will auto start:
 
-./setup.ph
+./setup.sh
 
 6. Use "docker ps" to check container is running then navigate to container via web-browser at:
 
