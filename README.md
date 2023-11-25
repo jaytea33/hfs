@@ -1,7 +1,7 @@
 **#Fork Info**
 This fork is an attempt to get hfs running in Docker. There is probably a better way to do this but if you really want to run it, here are the steps:
 
-1. Navigae to a working folder on your docker host
+1. Navigate to a working folder on your docker host
 
 2. Clone the fork repo using:
  
@@ -15,7 +15,7 @@ chmod +x setup.sh
 
 ./setup.ph
 
-5. Use "docker ps" to check container is running then navigate to container at:
+5. Use "docker ps" to check container is running then navigate to container via web-browser at:
 
 http://localhost:8445
 
